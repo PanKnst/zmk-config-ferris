@@ -36,7 +36,7 @@
     		        &kp TAB         &kp AT          &kp HASH        &kp DLLR        &kp PRCNT           &kp CARET       &kp AMPS        &kp KP_ASTERISK &kp GRAVE       &kp BSPC
     		        &kp AMPS        &kp PIPE        &kp EXCL        &kp LBRC        &kp RBRC            &kp KP_MINUS    &kp KP_EQUAL    &kp LBKT        &kp RBKT        &kp APOS
     		        &kp ESC         &trans 	        &kp BSLH        &kp KP_LPAR     &kp KP_RPAR         &kp UNDER       &kp KP_PLUS     &kp LT          &kp GT          &kp QMARK
-    				                                                    &kp LSHFT       &none  		          &none           &kp RGUI
+    				                                                    &kp LSHFT       &none  		          &trans          &kp RGUI
 		                   >;
 		                   };
 
