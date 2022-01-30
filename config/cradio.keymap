@@ -17,46 +17,46 @@
    // tapping_term_ms = <200>;
 };
 
-/ { 
+/ {
 
     keymap {
         compatible = "zmk,keymap";
-                
+
         default_layer {
             bindings = <
-                &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P 
+                &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P
                 &lt A NAV       &kp S           &kp D           &kp F           &kp G 	            &kp H           &kp J           &kp K           &kp L           &kp SEMI
                 &mt Z LCTRL     &kp X           &kp C           &kp V           &mt B LCTRL	        &kp N           &kp M           &kp CMMA        &kp DOT         &kp SLASH
-                                                                &kp LSHFT       &lt RET SYM_L  	    &lt SPC NUM_L   &kp BSPC 
-            >;
-		};
+                                                                &kp LSHFT       &lt RET SYM_L  	    &lt SPC NUM_L   &kp BSPC
+                        >;
+		                    };
 
         symbols_layer {
-		    bindings = <
-		        &kp TAB         &kp AT          &kp HASH        &kp DLLR        &kp PRCNT           &kp CARET       &kp AMPS        &kp KP_ASTERISK &kp GRAVE       &kp BSPC 
-		        &kp AMPS        &kp PIPE        &kp EXCL        &kp LBRC        &kp RBRC            &kp KP_MINUS    &kp KP_EQUAL    &kp LBKT        &kp RBKT        &kp APOS 
-		        &kp ESC         &trans 	        &kp BSLH        &kp KP_LPAR     &kp KP_RPAR         &kp UNDER       &kp KP_PLUS     &kp LT          &kp GT          &kp QMARK 
-				                                                &mo 1       &none  		&kp RGUI    &mo 2 
-		    >;
-		};
-		
-		numbers_layer {
-		    bindings = <
-		        &kp NUM_1       &kp NUM_2       &kp NUM_3       &kp NUM_4       &kp NUM_5           &kp NUM_6       &kp NUM_7       &kp NUM_8       &kp NUM_9       &kp NUM_0 
+    		    bindings = <
+    		        &kp TAB         &kp AT          &kp HASH        &kp DLLR        &kp PRCNT           &kp CARET       &kp AMPS        &kp KP_ASTERISK &kp GRAVE       &kp BSPC
+    		        &kp AMPS        &kp PIPE        &kp EXCL        &kp LBRC        &kp RBRC            &kp KP_MINUS    &kp KP_EQUAL    &kp LBKT        &kp RBKT        &kp APOS
+    		        &kp ESC         &trans 	        &kp BSLH        &kp KP_LPAR     &kp KP_RPAR         &kp UNDER       &kp KP_PLUS     &kp LT          &kp GT          &kp QMARK
+    				                                                    &kp LSHFT       &none  		          &none           &kp RGUI
+		                   >;
+		                   };
+
+    		numbers_layer {
+    		    bindings = <
+    		        &kp NUM_1       &kp NUM_2       &kp NUM_3       &kp NUM_4       &kp NUM_5           &kp NUM_6       &kp NUM_7       &kp NUM_8       &kp NUM_9       &kp NUM_0
                 &kp F1          &kp F2          &kp F3          &kp F4          &kp F5 	            &kp F6          &kp F7          &kp F8          &kp F9          &kp F10
-                &kp LCTRL       &kp LALT        &trans          &trans          &kp F11 	        &kp F12         &kp C_MUTE      &kp C_VOL_UP    &kp C_VOL_DN    &kp RET
-                                                                &kp LSHFT       &trans  	        &none           &kp LCTRL 
-		    >;
-		};	
-		
+                &kp LCTRL       &kp LALT        &trans          &trans          &kp F11 	          &kp F12         &kp C_MUTE      &kp C_VOL_UP    &kp C_VOL_DN    &kp RET
+                                                                &kp LSHFT       &trans  	          &none           &kp LCTRL
+		                    >;
+		                    };
+
 		navigation_layer {
-		    bindings = <
-                &trans          &kp TAB         &trans          &trans          &trans              &trans          &trans          &kp UP          &trans          &kp BSPC 
+		      bindings = <
+                &trans          &kp TAB         &trans          &trans          &trans              &trans          &trans          &kp UP          &trans          &kp BSPC
                 &none           &trans          &trans          &trans          &trans 	            &kp HOME        &kp LEFT        &kp DOWN        &kp RIGHT       &kp END
                 &trans          &trans          &trans          &trans          &trans	            &trans          &trans          &trans          &trans          &trans
-                                                                &kp LSHFT       &kp LALT 	        &kp RET         &kp LCTRL 
-		    >;
-		};	
-        
-	};
+                                                                &kp LSHFT       &kp LALT 	          &kp RET         &kp LCTRL
+		                    >;
+		                    };
+
+	          };
 };
